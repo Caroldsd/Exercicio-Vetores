@@ -1,2 +1,2 @@
 # Exercicio-Vetores
-Primeiro commit de um exerícios \o/
+Primeiro commit de um exerício \o/
