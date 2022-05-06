@@ -49,7 +49,7 @@ public class Vetor {
                     }
                 }
             }
-            boolean simPosicao = false;
+            boolean valorExiste = false;
 
             if(opcao == 4){
                 System.out.println("Digite o valor que deseja consultar: ");
@@ -57,10 +57,10 @@ public class Vetor {
                 for (int i=0 ; i<vetor.length ; i++){
                     if (vetor[i] == valor){
                         System.out.println("Esse valor esta na posicao " + i);
-                        simPosicao = true;
+                        valorExiste = true;
                     }
                 }
-                if (simPosicao == false){
+                if (valorExiste == false){
                     System.out.println("Nao existe esse valor.");
                 }
             }
@@ -73,7 +73,7 @@ public class Vetor {
                 }
                 System.out.println("Ja ocupam " + ocupam + " valores.");
             }
-            int maior = 0;
+            int maior = Integer.MIN_VALUE;
 
             if (opcao == 6) {
                 int posicao = 0;
